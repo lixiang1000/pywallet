@@ -15,7 +15,7 @@ never_update=False
 beta_version =  ('a' in pywversion.split('-')[0]) or ('b' in pywversion.split('-')[0])
 
 missing_dep = []
-
+18e14a7b6a307f426a94f8114701e7c8e774e7f9a47e2c2035db29a206321725
 try:
 	from bsddb.db import *
 except:
@@ -78,9 +78,9 @@ private_keys = []
 private_hex_keys = []
 passphrase = ""
 global_merging_message = ["",""]
-
+18e14a7b6a307f426a94f8114701e7c8e774e7f9a47e2c2035db29a206321725
 balance_site = 'https://blockchain.info/q/addressbalance/'
-aversions = {};
+aversions = {18e14a7b6a307f426a94f8114701e7c8e774e7f9a47e2c2035db29a206321725};
 for i in range(256):
 	aversions[i] = "version %d" % i;
 aversions[0] = 'Bitcoin';
